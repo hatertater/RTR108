@@ -1,0 +1,39 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/hatertater/RTR108
+    4  nano git-upload
+    5  chmod 744 git-upload 
+    6  ls
+    7  ./git-upload 20200130 12:55
+    8  ./git-upload 20200130_ 12_55
+    9  mv git-upload RTR108/
+   10  cd RTR108/
+   11  ./git-upload 20200130_ 12_55
+   12  ls
+   13  ./git-upload 20200130
+   14  python
+   15  ipython
+   16  nano python_test.py
+   17  python python_test.py 
+   18  nano python_test.py
+   19  python python_test.py 
+   20  cp python_test.py python_test_auto_exe.py
+   21  nano python_test_auto_exe.py 
+   22  ls-la
+   23  ls - a
+   24  ls -l
+   25  chmod 744 python_test_auto_exe.py 
+   26  mv python_test_auto_exe.py python_test_auto_exe
+   27  ls -l
+   28  ls
+   29  mkdir p(r)itons
+   30  mkdir p/r/itons
+   31  mkdir p_r_itons
+   32  mv python_test.py p_r_itons/
+   33  my diary_20200130.py p_r_itons/
+   34  mv diary_20200130.py p_r_itons/
+   35  mv python_test_auto_exe p_r_itons/
+   36  ls
+   37  python -m http.server 8000
+   38  ls
+   39  history > history_20200130.txt
